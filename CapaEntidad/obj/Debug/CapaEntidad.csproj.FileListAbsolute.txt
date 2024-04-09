@@ -1,0 +1,6 @@
+C:\Users\Oscar\source\repos\InventoryExpress\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Oscar\source\repos\InventoryExpress\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Oscar\source\repos\InventoryExpress\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\Oscar\source\repos\InventoryExpress\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\source\repos\InventoryExpress\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Oscar\source\repos\InventoryExpress\CapaEntidad\obj\Debug\CapaEntidad.pdb

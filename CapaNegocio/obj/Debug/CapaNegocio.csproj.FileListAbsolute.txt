@@ -1,0 +1,11 @@
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\obj\Debug\CapaNego.81B9D119.Up2Date
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Oscar\source\repos\InventoryExpress\CapaNegocio\obj\Debug\CapaNegocio.pdb
