@@ -343,9 +343,11 @@
             // label10
             // 
             this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(326, 21);
             this.label10.Name = "label10";
+            this.label10.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
             this.label10.Size = new System.Drawing.Size(1135, 75);
             this.label10.TabIndex = 20;
             this.label10.Text = "Lista de Usuarios:";
@@ -353,11 +355,12 @@
             // 
             // txtid
             // 
-            this.txtid.Location = new System.Drawing.Point(218, 25);
+            this.txtid.Location = new System.Drawing.Point(218, 55);
             this.txtid.Name = "txtid";
             this.txtid.Size = new System.Drawing.Size(40, 26);
             this.txtid.TabIndex = 21;
-            this.txtid.Text = "-1";
+            this.txtid.Text = "0";
+            this.txtid.Visible = false;
             // 
             // label11
             // 
@@ -402,6 +405,7 @@
             this.btnlimpiarbuscador.Size = new System.Drawing.Size(63, 36);
             this.btnlimpiarbuscador.TabIndex = 26;
             this.btnlimpiarbuscador.UseVisualStyleBackColor = false;
+            this.btnlimpiarbuscador.Click += new System.EventHandler(this.btnlimpiarbuscador_Click);
             // 
             // btnbuscar
             // 
@@ -419,6 +423,7 @@
             this.btnbuscar.Size = new System.Drawing.Size(63, 36);
             this.btnbuscar.TabIndex = 25;
             this.btnbuscar.UseVisualStyleBackColor = false;
+            this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // btneliminar
             // 
@@ -439,6 +444,7 @@
             this.btneliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btneliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btneliminar.UseVisualStyleBackColor = false;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // btnlimpiar
             // 
@@ -459,6 +465,7 @@
             this.btnlimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnlimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnlimpiar.UseVisualStyleBackColor = false;
+            this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
             // 
             // btnguardar
             // 
@@ -483,11 +490,12 @@
             // 
             // txtindice
             // 
-            this.txtindice.Location = new System.Drawing.Point(218, 57);
+            this.txtindice.Location = new System.Drawing.Point(164, 55);
             this.txtindice.Name = "txtindice";
             this.txtindice.Size = new System.Drawing.Size(40, 26);
             this.txtindice.TabIndex = 27;
-            this.txtindice.Text = "0";
+            this.txtindice.Text = "-1";
+            this.txtindice.Visible = false;
             // 
             // frmUsuarios
             // 
