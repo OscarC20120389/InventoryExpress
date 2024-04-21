@@ -48,3 +48,5 @@ C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\bin\Debug\System.R
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.SuggestedBindingRedirects.cache
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.exe.config
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmNegocio.resources
+C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdProveedor.resources
+C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdProducto.resources

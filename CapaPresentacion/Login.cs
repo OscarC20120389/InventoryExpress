@@ -29,8 +29,6 @@ namespace CapaPresentacion
 
         private void botoningresar_Click(object sender, EventArgs e)
         {
-            List<Usuario> TEST = new CN_Usuario().Listar();
-
 
             //Expresion lambda listar retorna una lista de usuarios donde con la lambda devolvemos aquel usuario que tenga algo iagual lo escrito en la caja de texto
             Usuario ousuario = new CN_Usuario().Listar().Where(u => u.Documento == txtusuario.Text && u.Clave == txtclave.Text ).FirstOrDefault();
