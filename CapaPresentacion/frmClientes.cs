@@ -22,6 +22,13 @@ namespace CapaPresentacion
 
         private void frmClientes_Load(object sender, EventArgs e)
         {
+
+            // Establece el tamaño de la fuente para todo el DataGridView
+            dgvdata.DefaultCellStyle.Font = new Font("Microsoft Sans Serif", 12);
+
+            // Cambiar el tamaño de la fuente del encabezado de columna
+            dgvdata.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 12);
+
             cboestado.Items.Add(new OpcionCombo() { Valor = 1, Texto = "Activo" });
             cboestado.Items.Add(new OpcionCombo() { Valor = 0, Texto = "No Activo" });
             cboestado.DisplayMember = "Texto";

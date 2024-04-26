@@ -85,7 +85,7 @@ namespace CapaPresentacion
 
         private void submenuregistrarventa_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(menuventas, new frmVentas());
+            AbrirFormulario(menuventas, new frmVentas(usuarioActual));
         }
 
         private void submenuverdetalleventa_Click(object sender, EventArgs e)
@@ -112,15 +112,27 @@ namespace CapaPresentacion
         {
             AbrirFormulario((IconMenuItem)sender, new frmProveedores());
         }
-
-        private void menureportes_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario((IconMenuItem)sender, new frmReportes());
-        }
-
         private void submenunegocio_Click(object sender, EventArgs e)
         {
             AbrirFormulario(menuadministrador, new frmNegocio());
+        }
+
+        private void submenureportecompras_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menureportes, new frmReporteCompras());
+        }
+
+        private void submenureporteventas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menureportes, new frmReporteVentas());
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Desea Salir?","Mensaje",MessageBoxButtons.YesNo,MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

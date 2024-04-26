@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\oscar\\source\\repos\\inventoryexpress\\capapresentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\oscar\\source\\repos\\inventoryexpress\\capapresentacion\\frmreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmreporteventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\oscar\\source\\repos\\inventoryexpress\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\oscar\\source\\repos\\inventoryexpress\\capapresentacion\\frmreportecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmreportecompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\oscar\\source\\repos\\inventoryexpress\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\oscar\\source\\repos\\inventoryexpress\\capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDA8D49A-ADF6-4E70-82D8-B9D90F320542}|CapaDatos\\CapaDatos.csproj|C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\capadatos\\cd_compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDA8D49A-ADF6-4E70-82D8-B9D90F320542}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\oscar\\source\\repos\\inventoryexpress\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BF0F1EA-4805-4028-9D65-1CEE492C6D0D}|CapaNegocio\\CapaNegocio.csproj|C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\capanegocio\\cn_compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BF0F1EA-4805-4028-9D65-1CEE492C6D0D}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\capapresentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmdetallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{629CDCBA-9F38-45D9-B5D6-7DE4ECD9E8F0}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +30,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmProducto.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmProducto.cs",
-              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmProducto.cs",
-              "RelativeToolTip": "CapaPresentacion\\frmProducto.cs",
-              "ViewState": "AQIAADMBAAAAAAAAAAAAADkBAAAQAAAA",
+              "DocumentIndex": 0,
+              "Title": "frmReporteVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmReporteVentas.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmReporteVentas.cs",
+              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmReporteVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\frmReporteVentas.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T03:35:19.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T16:12:04.651Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmProducto.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmProducto.cs",
-              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\frmProducto.cs [Dise\u00F1o]",
+              "Title": "frmReporteCompras.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmReporteCompras.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmReporteCompras.cs",
+              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmReporteCompras.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\frmReporteCompras.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T03:35:18.145Z",
+              "WhenOpened": "2024-04-26T16:07:53.541Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmDetalleCompra.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmDetalleCompra.cs",
-              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeToolTip": "CapaPresentacion\\frmDetalleCompra.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFwAAAAcAAAA",
+              "DocumentIndex": 2,
+              "Title": "frmClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmClientes.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\frmClientes.cs",
+              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\frmClientes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T23:25:43.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CN_Compra.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaNegocio\\CN_Compra.cs",
-              "RelativeDocumentMoniker": "CapaNegocio\\CN_Compra.cs",
-              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaNegocio\\CN_Compra.cs",
-              "RelativeToolTip": "CapaNegocio\\CN_Compra.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACQAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T23:21:51.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T16:01:17.365Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CD_Compra.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaDatos\\CD_Compra.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CD_Compra.cs",
-              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaDatos\\CD_Compra.cs",
-              "RelativeToolTip": "CapaDatos\\CD_Compra.cs",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAAAKgAAAAaAAAA",
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\Inicio.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Inicio.cs",
+              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T06:47:58.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T02:03:48.201Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmDetalleCompra.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmDetalleCompra.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\frmDetalleCompra.cs",
-              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\frmDetalleCompra.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\frmDetalleCompra.cs [Dise\u00F1o]",
+              "DocumentIndex": 4,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\Login.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\Oscar\\source\\repos\\InventoryExpress\\CapaPresentacion\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:02:50.219Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-26T02:03:45.044Z"
             }
           ]
         }

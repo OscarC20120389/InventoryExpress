@@ -46,9 +46,9 @@
             this.label1.BackColor = System.Drawing.Color.Coral;
             this.label1.Dock = System.Windows.Forms.DockStyle.Right;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(530, 0);
+            this.label1.Location = new System.Drawing.Point(512, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(513, 529);
+            this.label1.Size = new System.Drawing.Size(513, 459);
             this.label1.TabIndex = 0;
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
@@ -57,7 +57,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Coral;
             this.label2.Font = new System.Drawing.Font("Berlin Sans FB Demi", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(679, 28);
+            this.label2.Location = new System.Drawing.Point(660, 28);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(252, 112);
             this.label2.TabIndex = 1;
@@ -68,7 +68,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Coral;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(664, 143);
+            this.pictureBox1.Location = new System.Drawing.Point(645, 143);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(277, 261);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -78,7 +78,7 @@
             // txtusuario
             // 
             this.txtusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusuario.Location = new System.Drawing.Point(38, 155);
+            this.txtusuario.Location = new System.Drawing.Point(38, 110);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(449, 39);
             this.txtusuario.TabIndex = 3;
@@ -86,7 +86,7 @@
             // txtclave
             // 
             this.txtclave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtclave.Location = new System.Drawing.Point(38, 289);
+            this.txtclave.Location = new System.Drawing.Point(38, 244);
             this.txtclave.Name = "txtclave";
             this.txtclave.PasswordChar = '*';
             this.txtclave.Size = new System.Drawing.Size(449, 39);
@@ -96,7 +96,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(167, 106);
+            this.label3.Location = new System.Drawing.Point(171, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(173, 46);
             this.label3.TabIndex = 5;
@@ -106,7 +106,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(126, 240);
+            this.label4.Location = new System.Drawing.Point(149, 189);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(223, 42);
             this.label4.TabIndex = 6;
@@ -118,7 +118,7 @@
             this.botoningresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botoningresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botoningresar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.botoningresar.Location = new System.Drawing.Point(38, 420);
+            this.botoningresar.Location = new System.Drawing.Point(38, 357);
             this.botoningresar.Name = "botoningresar";
             this.botoningresar.Size = new System.Drawing.Size(197, 56);
             this.botoningresar.TabIndex = 7;
@@ -132,7 +132,7 @@
             this.botoncancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botoncancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botoncancelar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.botoncancelar.Location = new System.Drawing.Point(290, 420);
+            this.botoncancelar.Location = new System.Drawing.Point(290, 357);
             this.botoncancelar.Name = "botoncancelar";
             this.botoncancelar.Size = new System.Drawing.Size(197, 56);
             this.botoncancelar.TabIndex = 8;
@@ -142,10 +142,9 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1043, 529);
+            this.ClientSize = new System.Drawing.Size(1025, 459);
             this.Controls.Add(this.botoncancelar);
             this.Controls.Add(this.botoningresar);
             this.Controls.Add(this.label4);
@@ -155,7 +154,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

@@ -120,6 +120,7 @@
             this.txtfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtfecha.Location = new System.Drawing.Point(11, 74);
             this.txtfecha.Name = "txtfecha";
+            this.txtfecha.ReadOnly = true;
             this.txtfecha.Size = new System.Drawing.Size(226, 35);
             this.txtfecha.TabIndex = 16;
             // 
@@ -203,6 +204,7 @@
             this.txtnombreproveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnombreproveedor.Location = new System.Drawing.Point(328, 74);
             this.txtnombreproveedor.Name = "txtnombreproveedor";
+            this.txtnombreproveedor.ReadOnly = true;
             this.txtnombreproveedor.Size = new System.Drawing.Size(329, 35);
             this.txtnombreproveedor.TabIndex = 17;
             // 
@@ -212,6 +214,7 @@
             this.txtdocproveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdocproveedor.Location = new System.Drawing.Point(11, 74);
             this.txtdocproveedor.Name = "txtdocproveedor";
+            this.txtdocproveedor.ReadOnly = true;
             this.txtdocproveedor.Size = new System.Drawing.Size(210, 35);
             this.txtdocproveedor.TabIndex = 16;
             // 
@@ -337,6 +340,7 @@
             this.txtproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtproducto.Location = new System.Drawing.Point(337, 81);
             this.txtproducto.Name = "txtproducto";
+            this.txtproducto.ReadOnly = true;
             this.txtproducto.Size = new System.Drawing.Size(311, 35);
             this.txtproducto.TabIndex = 28;
             // 
@@ -372,6 +376,7 @@
             this.txtcodproducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcodproducto.Location = new System.Drawing.Point(11, 81);
             this.txtcodproducto.Name = "txtcodproducto";
+            this.txtcodproducto.ReadOnly = true;
             this.txtcodproducto.Size = new System.Drawing.Size(226, 35);
             this.txtcodproducto.TabIndex = 16;
             this.txtcodproducto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtcodproducto_KeyDown);
@@ -500,6 +505,7 @@
             this.txttotalpagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttotalpagar.Location = new System.Drawing.Point(1357, 646);
             this.txttotalpagar.Name = "txttotalpagar";
+            this.txttotalpagar.ReadOnly = true;
             this.txttotalpagar.Size = new System.Drawing.Size(172, 35);
             this.txttotalpagar.TabIndex = 34;
             // 
@@ -560,8 +566,7 @@
             // 
             // frmCompras
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(1655, 811);
             this.Controls.Add(this.btnregistrar);
             this.Controls.Add(this.label12);

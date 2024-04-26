@@ -31,16 +31,16 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.picLogo = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnsubir = new FontAwesome.Sharp.IconButton();
+            this.btnguardarcambios = new FontAwesome.Sharp.IconButton();
             this.txtdireccion = new System.Windows.Forms.TextBox();
             this.txtruc = new System.Windows.Forms.TextBox();
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnguardarcambios = new FontAwesome.Sharp.IconButton();
+            this.btnsubir = new FontAwesome.Sharp.IconButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
@@ -86,111 +86,21 @@
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             // 
-            // picLogo
-            // 
-            this.picLogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picLogo.Location = new System.Drawing.Point(29, 63);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(187, 155);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picLogo.TabIndex = 0;
-            this.picLogo.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(29, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Logo:";
-            // 
-            // btnsubir
-            // 
-            this.btnsubir.BackColor = System.Drawing.Color.LightGray;
-            this.btnsubir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnsubir.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnsubir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsubir.ForeColor = System.Drawing.Color.Black;
-            this.btnsubir.IconChar = FontAwesome.Sharp.IconChar.Upload;
-            this.btnsubir.IconColor = System.Drawing.Color.Black;
-            this.btnsubir.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnsubir.IconSize = 28;
-            this.btnsubir.Location = new System.Drawing.Point(29, 239);
-            this.btnsubir.Name = "btnsubir";
-            this.btnsubir.Size = new System.Drawing.Size(187, 36);
-            this.btnsubir.TabIndex = 17;
-            this.btnsubir.Text = "Subir";
-            this.btnsubir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnsubir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnsubir.UseVisualStyleBackColor = false;
-            this.btnsubir.Click += new System.EventHandler(this.btnsubir_Click);
-            // 
-            // txtdireccion
-            // 
-            this.txtdireccion.Location = new System.Drawing.Point(266, 195);
-            this.txtdireccion.Name = "txtdireccion";
-            this.txtdireccion.Size = new System.Drawing.Size(336, 26);
-            this.txtdireccion.TabIndex = 23;
-            // 
-            // txtruc
-            // 
-            this.txtruc.Location = new System.Drawing.Point(266, 131);
-            this.txtruc.Name = "txtruc";
-            this.txtruc.Size = new System.Drawing.Size(336, 26);
-            this.txtruc.TabIndex = 22;
-            // 
-            // txtnombre
-            // 
-            this.txtnombre.Location = new System.Drawing.Point(266, 63);
-            this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(336, 26);
-            this.txtnombre.TabIndex = 21;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(262, 168);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 20);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Dirección:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(262, 103);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 20);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "R.F.C: ";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(262, 35);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(135, 20);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Nombre Negocio: ";
-            // 
             // btnguardarcambios
             // 
             this.btnguardarcambios.BackColor = System.Drawing.Color.LightGray;
             this.btnguardarcambios.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnguardarcambios.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnguardarcambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnguardarcambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardarcambios.ForeColor = System.Drawing.Color.Black;
             this.btnguardarcambios.IconChar = FontAwesome.Sharp.IconChar.FloppyDisk;
             this.btnguardarcambios.IconColor = System.Drawing.Color.Black;
             this.btnguardarcambios.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnguardarcambios.IconSize = 28;
-            this.btnguardarcambios.Location = new System.Drawing.Point(266, 239);
+            this.btnguardarcambios.IconSize = 38;
+            this.btnguardarcambios.Location = new System.Drawing.Point(290, 288);
             this.btnguardarcambios.Name = "btnguardarcambios";
-            this.btnguardarcambios.Size = new System.Drawing.Size(336, 36);
+            this.btnguardarcambios.Size = new System.Drawing.Size(336, 48);
             this.btnguardarcambios.TabIndex = 24;
             this.btnguardarcambios.Text = "Guardar Cambios";
             this.btnguardarcambios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -198,10 +108,108 @@
             this.btnguardarcambios.UseVisualStyleBackColor = false;
             this.btnguardarcambios.Click += new System.EventHandler(this.btnguardarcambios_Click);
             // 
+            // txtdireccion
+            // 
+            this.txtdireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdireccion.Location = new System.Drawing.Point(289, 231);
+            this.txtdireccion.Name = "txtdireccion";
+            this.txtdireccion.Size = new System.Drawing.Size(336, 39);
+            this.txtdireccion.TabIndex = 23;
+            // 
+            // txtruc
+            // 
+            this.txtruc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtruc.Location = new System.Drawing.Point(289, 148);
+            this.txtruc.Name = "txtruc";
+            this.txtruc.Size = new System.Drawing.Size(336, 39);
+            this.txtruc.TabIndex = 22;
+            // 
+            // txtnombre
+            // 
+            this.txtnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnombre.Location = new System.Drawing.Point(289, 71);
+            this.txtnombre.Name = "txtnombre";
+            this.txtnombre.Size = new System.Drawing.Size(336, 39);
+            this.txtnombre.TabIndex = 21;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(284, 192);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(121, 29);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Dirección:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(285, 114);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(86, 29);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "R.F.C: ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(285, 35);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(211, 29);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Nombre Negocio: ";
+            // 
+            // btnsubir
+            // 
+            this.btnsubir.BackColor = System.Drawing.Color.LightGray;
+            this.btnsubir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnsubir.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnsubir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsubir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsubir.ForeColor = System.Drawing.Color.Black;
+            this.btnsubir.IconChar = FontAwesome.Sharp.IconChar.Upload;
+            this.btnsubir.IconColor = System.Drawing.Color.Black;
+            this.btnsubir.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnsubir.IconSize = 38;
+            this.btnsubir.Location = new System.Drawing.Point(20, 288);
+            this.btnsubir.Name = "btnsubir";
+            this.btnsubir.Size = new System.Drawing.Size(232, 48);
+            this.btnsubir.TabIndex = 17;
+            this.btnsubir.Text = "Subir";
+            this.btnsubir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnsubir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnsubir.UseVisualStyleBackColor = false;
+            this.btnsubir.Click += new System.EventHandler(this.btnsubir_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(15, 22);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(74, 29);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Logo:";
+            // 
+            // picLogo
+            // 
+            this.picLogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picLogo.Location = new System.Drawing.Point(20, 58);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(232, 208);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picLogo.TabIndex = 0;
+            this.picLogo.TabStop = false;
+            // 
             // frmNegocio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(1140, 473);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label9);

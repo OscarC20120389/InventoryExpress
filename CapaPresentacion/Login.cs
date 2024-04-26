@@ -35,12 +35,12 @@ namespace CapaPresentacion
 
             if (ousuario != null)
             {
-                Inicio form = new Inicio(ousuario);
 
+                Inicio form = new Inicio(ousuario);
+                form.FormClosing += frm_closing;
                 form.Show();
                 this.Hide();
 
-                form.FormClosing += frm_closing;
             }
             else {
                 MessageBox.Show("No se encontro el usuario","Mensaje",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);

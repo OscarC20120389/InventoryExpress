@@ -22,7 +22,6 @@ C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPres
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
-C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmReportes.resources
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\bin\Debug\ClosedXML.dll
@@ -53,3 +52,7 @@ C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\bin\Debug\BouncyCa
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\bin\Debug\itextsharp.dll
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\bin\Debug\itextsharp.xmlworker.dll
 C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\bin\Debug\itextsharp.xml
+C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.mdCliente.resources
+C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
+C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmReporteCompras.resources
+C:\Users\Oscar\source\repos\InventoryExpress\CapaPresentacion\obj\Debug\CapaPresentacion.frmReporteVentas.resources

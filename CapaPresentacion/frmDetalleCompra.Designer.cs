@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtbusqueda = new System.Windows.Forms.TextBox();
@@ -39,10 +39,10 @@
             this.txtfecha = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txttipodocumento = new System.Windows.Forms.TextBox();
-            this.txtusuario = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtusuario = new System.Windows.Forms.TextBox();
+            this.txttipodocumento = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtnumerodocumento = new System.Windows.Forms.TextBox();
             this.txtnombreproveedor = new System.Windows.Forms.TextBox();
@@ -155,6 +155,7 @@
             this.txtfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtfecha.Location = new System.Drawing.Point(26, 74);
             this.txtfecha.Name = "txtfecha";
+            this.txtfecha.ReadOnly = true;
             this.txtfecha.Size = new System.Drawing.Size(345, 35);
             this.txtfecha.TabIndex = 16;
             // 
@@ -185,34 +186,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Información Compra";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(419, 31);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(162, 25);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Tipo Documento:";
-            // 
-            // txttipodocumento
-            // 
-            this.txttipodocumento.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txttipodocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttipodocumento.Location = new System.Drawing.Point(424, 74);
-            this.txttipodocumento.Name = "txttipodocumento";
-            this.txttipodocumento.Size = new System.Drawing.Size(281, 35);
-            this.txttipodocumento.TabIndex = 17;
-            // 
-            // txtusuario
-            // 
-            this.txtusuario.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.txtusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusuario.Location = new System.Drawing.Point(756, 74);
-            this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(348, 35);
-            this.txtusuario.TabIndex = 18;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -222,6 +195,36 @@
             this.label2.Size = new System.Drawing.Size(85, 25);
             this.label2.TabIndex = 19;
             this.label2.Text = "Usuario:";
+            // 
+            // txtusuario
+            // 
+            this.txtusuario.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtusuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtusuario.Location = new System.Drawing.Point(756, 74);
+            this.txtusuario.Name = "txtusuario";
+            this.txtusuario.ReadOnly = true;
+            this.txtusuario.Size = new System.Drawing.Size(348, 35);
+            this.txtusuario.TabIndex = 18;
+            // 
+            // txttipodocumento
+            // 
+            this.txttipodocumento.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txttipodocumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttipodocumento.Location = new System.Drawing.Point(424, 74);
+            this.txttipodocumento.Name = "txttipodocumento";
+            this.txttipodocumento.ReadOnly = true;
+            this.txttipodocumento.Size = new System.Drawing.Size(281, 35);
+            this.txttipodocumento.TabIndex = 17;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(419, 31);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(162, 25);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Tipo Documento:";
             // 
             // groupBox2
             // 
@@ -253,6 +256,7 @@
             this.txtnombreproveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnombreproveedor.Location = new System.Drawing.Point(328, 74);
             this.txtnombreproveedor.Name = "txtnombreproveedor";
+            this.txtnombreproveedor.ReadOnly = true;
             this.txtnombreproveedor.Size = new System.Drawing.Size(329, 35);
             this.txtnombreproveedor.TabIndex = 17;
             // 
@@ -262,6 +266,7 @@
             this.txtdocproveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdocproveedor.Location = new System.Drawing.Point(11, 74);
             this.txtdocproveedor.Name = "txtdocproveedor";
+            this.txtdocproveedor.ReadOnly = true;
             this.txtdocproveedor.Size = new System.Drawing.Size(210, 35);
             this.txtdocproveedor.TabIndex = 16;
             // 
@@ -289,15 +294,15 @@
             // 
             this.dgvdata.AllowUserToAddRows = false;
             this.dgvdata.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvdata.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Producto,
@@ -309,9 +314,9 @@
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
             this.dgvdata.RowHeadersWidth = 62;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvdata.RowTemplate.Height = 28;
             this.dgvdata.Size = new System.Drawing.Size(1138, 312);
             this.dgvdata.TabIndex = 39;
@@ -353,8 +358,9 @@
             // 
             this.txtmontototal.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtmontototal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmontototal.Location = new System.Drawing.Point(377, 734);
+            this.txtmontototal.Location = new System.Drawing.Point(377, 739);
             this.txtmontototal.Name = "txtmontototal";
+            this.txtmontototal.ReadOnly = true;
             this.txtmontototal.Size = new System.Drawing.Size(210, 35);
             this.txtmontototal.TabIndex = 23;
             this.txtmontototal.Text = "0";
@@ -394,8 +400,7 @@
             // 
             // frmDetalleCompra
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.ClientSize = new System.Drawing.Size(1655, 817);
             this.Controls.Add(this.btndescargar);
             this.Controls.Add(this.label7);
